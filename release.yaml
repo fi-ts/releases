@@ -1,9 +1,7 @@
 ---
 vectors:
   metal-stack:
-    # TODO: pin as soon as there is a release
-    version: develop
-    url_template: https://raw.githubusercontent.com/metal-stack/releases/%s/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.1.0/release.yaml
 
 binaries:
   metal-stack:
