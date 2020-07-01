@@ -25,7 +25,7 @@ docker-images:
         tag: v0.3.15
       accounting-exporter:
         name: registry.fi-ts.io/cloud-native/kube-counter
-        tag: v0.3.2
+        tag: v0.3.3
       s3-api:
         name: registry.fi-ts.io/s3/s3-api
         tag: v0.1.9
@@ -101,5 +101,5 @@ repositories:
 
 ansible-roles:
   metal-extensions-roles:
-    repository: https://blobstore.fi-ts.io/cloud-native/ansible-roles/metal-extensions-roles-v0.1.6.tar.gz
-    version: v0.1.6
+    repository: https://blobstore.fi-ts.io/cloud-native/ansible-roles/metal-extensions-roles-v0.1.7.tar.gz
+    version: v0.1.7
