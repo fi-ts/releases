@@ -1,57 +1,51 @@
----
-vectors:
-  metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.1.1/release.yaml
-
+ansible-roles:
+  metal-extensions-roles:
+    repository: https://blobstore.fi-ts.io/cloud-native/ansible-roles/metal-extensions-roles-v0.1.9.tar.gz
+    version: v0.1.9
 binaries:
   metal-stack:
     cloudctl:
-      linux:
-        url: https://blobstore.fi-ts.io/cloud-native/cloudctl/v0.7.12/cloudctl-linux-amd64
-      windows:
-        url: https://blobstore.fi-ts.io/cloud-native/cloudctl/v0.7.12/cloudctl-windows-amd64
       darwin:
-        url: https://blobstore.fi-ts.io/cloud-native/cloudctl/v0.7.12/cloudctl-darwin-amd64
-      version: v0.7.12
-
+        url: https://blobstore.fi-ts.io/cloud-native/cloudctl/vv0.7.14/cloudctl-darwin-amd64
+      linux:
+        url: https://github.com/metal-stack/metalctl/releases/download/vv0.7.14/metalctl-linux-amd64
+      version: v0.7.14
+      windows:
+        url: https://blobstore.fi-ts.io/cloud-native/cloudctl/vv0.7.14/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
-      cloud-api:
-        name: registry.fi-ts.io/cloud-native/cloud-api
-        tag: v0.7.15
       accounting-api:
         name: registry.fi-ts.io/cloud-native/accounting-api
         tag: v0.3.17
       accounting-exporter:
         name: registry.fi-ts.io/cloud-native/kube-counter
         tag: v0.3.3
+      cloud-api:
+        name: registry.fi-ts.io/cloud-native/cloud-api
+        tag: v0.7.15
       s3-api:
         name: registry.fi-ts.io/s3/s3-api
         tag: v0.1.9
       s3-controller:
         name: registry.fi-ts.io/s3/s3-controller
         tag: v0.1.9
-
+    fits:
+      authn-webhook:
+        name: registry.fi-ts.io/cloud-native/kubernetes-authn-webhook
+        tag: v0.1.0
+      group-role-binding-controller:
+        name: registry.fi-ts.io/cloud-native/group-rolebinding-controller
+        tag: v0.1.0
     generic:
       backup-restore-sidecar:
         name: metalstack/backup-restore-sidecar
         tag: v0.5.3
-
-    fits:
-      group-role-binding-controller:
-        name: registry.fi-ts.io/cloud-native/group-rolebinding-controller
-        tag: v0.1.0
-      authn-webhook:
-        name: registry.fi-ts.io/cloud-native/kubernetes-authn-webhook
-        tag: v0.1.0
-
   third-party:
     control-plane:
       accounting-db:
         name: postgres
         tag: 12-alpine
-
     gardener:
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
@@ -59,28 +53,24 @@ docker-images:
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
         tag: v1.4.2
-      scheduler:
-        name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.4.2
-      gardenlet:
-        name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.4.2
-      virtual-apiserver:
-        name: k8s.gcr.io/hyperkube
-        tag: v1.15.10
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.5.2
       external-dns:
         name: eu.gcr.io/gardener-project/dns-controller-manager
         tag: v0.7.10
+      gardenlet:
+        name: eu.gcr.io/gardener-project/gardener/gardenlet
+        tag: v1.4.2
       networking-calico:
-        # newer versions of gardener-extension-networking-calico have vpa enabled
-        # https://github.com/gardener/gardener-extension-networking-calico/pull/22
-        # with the next gardener update we should try to go back to the official gardener image
         name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
         tag: increase-calico-ds-limits
-
+      scheduler:
+        name: eu.gcr.io/gardener-project/gardener/scheduler
+        tag: v1.4.2
+      virtual-apiserver:
+        name: k8s.gcr.io/hyperkube
+        tag: v1.15.10
     vmware:
       velero:
         name: velero/velero
@@ -88,18 +78,15 @@ docker-images:
       velero-plugin-gcp:
         name: velero-plugin-for-gcp
         tag: v1.0.1
-
 repositories:
   third-party:
     gardener:
-      gardener:
-        url: https://github.com/gardener/gardener.git
-        ref: v1.4.2
       etcd-backup-restore:
-        url: https://github.com/gardener/etcd-backup-restore.git
         ref: v0.9.1
-
-ansible-roles:
-  metal-extensions-roles:
-    repository: https://blobstore.fi-ts.io/cloud-native/ansible-roles/metal-extensions-roles-v0.1.9.tar.gz
-    version: v0.1.9
+        url: https://github.com/gardener/etcd-backup-restore.git
+      gardener:
+        ref: v1.4.2
+        url: https://github.com/gardener/gardener.git
+vectors:
+  metal-stack:
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.1.1/release.yaml
