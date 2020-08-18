@@ -49,25 +49,25 @@ docker-images:
     gardener:
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.4.2
+        tag: v1.5.5
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.4.2
+        tag: v1.5.5
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
-        tag: v1.5.2
+        tag: v1.7.2
       external-dns:
         name: eu.gcr.io/gardener-project/dns-controller-manager
         tag: v0.7.10
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.4.2
+        tag: v1.5.5
       networking-calico:
-        name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
-        tag: increase-calico-ds-limits
+        name: eu.gcr.io/gardener-project/gardener/extensions/networking-calico
+        tag: v1.8.1
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.4.2
+        tag: v1.5.5
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
         tag: v1.15.10
