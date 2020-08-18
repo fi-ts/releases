@@ -85,7 +85,7 @@ repositories:
         ref: v0.9.1
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.4.2
+        ref: v1.5.5
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
