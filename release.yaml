@@ -6,12 +6,12 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.7.15/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.7.16/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.7.15/cloudctl-linux-amd64
-      version: v0.7.15
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.7.16/cloudctl-linux-amd64
+      version: v0.7.16
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.7.15/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.7.16/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -23,7 +23,7 @@ docker-images:
         tag: v0.3.3
       cloud-api:
         name: registry.fi-ts.io/cloud-native/cloud-api
-        tag: v0.7.15
+        tag: v0.7.17
       s3-api:
         name: registry.fi-ts.io/s3/s3-api
         tag: v0.1.9
@@ -49,10 +49,10 @@ docker-images:
     gardener:
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.5.5
+        tag: v1.6.6
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.5.5
+        tag: v1.6.6
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.7.2
@@ -61,16 +61,16 @@ docker-images:
         tag: v0.7.18
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.5.5
+        tag: v1.6.6
       networking-calico:
         name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
         tag: bdfefa8
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.5.5
+        tag: v1.6.6
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
-        tag: v1.15.10
+        tag: v1.16.14
     vmware:
       velero:
         name: velero/velero
@@ -85,8 +85,8 @@ repositories:
         ref: v0.9.1
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.5.5
+        ref: v1.6.6
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.1.3/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.1.4/release.yaml
