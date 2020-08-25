@@ -40,7 +40,7 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: metalstack/backup-restore-sidecar
-        tag: v0.5.4
+        tag: v0.5.5
   third-party:
     control-plane:
       accounting-db:
