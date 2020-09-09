@@ -23,7 +23,7 @@ docker-images:
         tag: v0.3.3
       cloud-api:
         name: registry.fi-ts.io/cloud-native/cloud-api
-        tag: v0.8.0
+        tag: v0.8.1
       s3-api:
         name: registry.fi-ts.io/s3/s3-api
         tag: v0.1.9
