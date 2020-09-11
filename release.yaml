@@ -1,6 +1,6 @@
 ansible-roles:
   metal-extensions-roles:
-    repository: https://blobstore.fi-ts.io/cloud-native/ansible-roles/metal-extensions-roles-v0.1.9.tar.gz
+    repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
     version: v0.1.9
 binaries:
   metal-stack:
