@@ -26,10 +26,10 @@ docker-images:
         tag: v0.8.2
       s3-api:
         name: registry.fi-ts.io/s3/s3-api
-        tag: v0.1.9
+        tag: v0.1.10
       s3-controller:
         name: registry.fi-ts.io/s3/s3-controller
-        tag: v0.1.9
+        tag: v0.1.10
     fits:
       authn-webhook:
         name: registry.fi-ts.io/cloud-native/kubernetes-authn-webhook
