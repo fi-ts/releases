@@ -89,4 +89,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.2.0/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.2.1/release.yaml
