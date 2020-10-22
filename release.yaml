@@ -17,7 +17,7 @@ docker-images:
     extensions:
       accounting-api:
         name: registry.fi-ts.io/cloud-native/accounting-api
-        tag: v0.3.18
+        tag: v0.3.19
       accounting-exporter:
         name: registry.fi-ts.io/cloud-native/kube-counter
         tag: v0.3.3
