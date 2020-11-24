@@ -39,7 +39,7 @@ docker-images:
         tag: v0.1.0
     generic:
       backup-restore-sidecar:
-        name: metalstack/backup-restore-sidecar
+        name: ghcr.io/metal-stack/backup-restore-sidecar
         tag: v0.6.0
   third-party:
     control-plane:
