@@ -49,10 +49,10 @@ docker-images:
     gardener:
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.11.3
+        tag: v1.12.9
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.11.3
+        tag: v1.12.9
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.12.1
@@ -61,13 +61,13 @@ docker-images:
         tag: v0.7.21
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.11.3
+        tag: v1.12.9
       networking-calico:
         name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
         tag: bdfefa8
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.11.3
+        tag: v1.12.9
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
         tag: v1.16.14
@@ -85,7 +85,7 @@ repositories:
         ref: v0.11.1
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.11.3
+        ref: v1.12.9
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
