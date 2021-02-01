@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.11
+    version: v0.1.12
 binaries:
   metal-stack:
     cloudctl:
@@ -23,7 +23,7 @@ docker-images:
         tag: v0.3.3
       cloud-api:
         name: registry.fi-ts.io/cloud-native/cloud-api
-        tag: v0.12.0
+        tag: v0.12.2
       s3-api:
         name: registry.fi-ts.io/s3/s3-api
         tag: v0.1.10
@@ -89,4 +89,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.5.0/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.5.1/release.yaml
