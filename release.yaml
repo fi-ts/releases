@@ -20,7 +20,7 @@ docker-images:
         tag: v0.4.0
       accounting-exporter:
         name: registry.fi-ts.io/cloud-native/kube-counter
-        tag: v0.3.3
+        tag: v0.4.0
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
         tag: v0.14.1
