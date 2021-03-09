@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.13
+    version: v0.1.14
 binaries:
   metal-stack:
     cloudctl:
@@ -16,14 +16,14 @@ docker-images:
   metal-stack:
     extensions:
       accounting-api:
-        name: registry.fi-ts.io/cloud-native/accounting-api
-        tag: v0.3.20
+        name: r.metal-stack.io/extensions/accounting-api
+        tag: v0.4.0
       accounting-exporter:
         name: registry.fi-ts.io/cloud-native/kube-counter
-        tag: v0.3.3
+        tag: v0.4.0
       cloud-api:
-        name: registry.fi-ts.io/cloud-native/cloud-api
-        tag: v0.13.0
+        name: r.metal-stack.io/extensions/cloud-api
+        tag: v0.15.0
       s3-api:
         name: registry.fi-ts.io/s3/s3-api
         tag: v0.1.10
@@ -89,4 +89,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.5.2/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.6.0/release.yaml
