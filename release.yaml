@@ -33,7 +33,7 @@ docker-images:
     fits:
       authn-webhook:
         name: registry.fi-ts.io/cloud-native/kubernetes-authn-webhook
-        tag: v0.1.0
+        tag: v0.2.0
       group-role-binding-controller:
         name: registry.fi-ts.io/cloud-native/group-rolebinding-controller
         tag: v0.1.0
