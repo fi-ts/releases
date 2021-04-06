@@ -47,6 +47,9 @@ docker-images:
         name: timescale/timescaledb
         tag: 2.1.0-pg12
     gardener:
+      admission-controller:
+        name: eu.gcr.io/gardener-project/gardener/admission-controller
+        tag: v1.14.1
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
         tag: v1.14.1
