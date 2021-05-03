@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.20
+    version: v0.1.21
 binaries:
   metal-stack:
     cloudctl:
@@ -49,13 +49,13 @@ docker-images:
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
-        tag: v1.16.5
+        tag: v1.17.3
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.16.5
+        tag: v1.17.3
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.16.5
+        tag: v1.17.3
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.15.0
@@ -64,13 +64,13 @@ docker-images:
         tag: v0.8.3
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.16.5
+        tag: v1.17.3
       networking-calico:
         name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
         tag: bdfefa8
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.16.5
+        tag: v1.17.3
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
         tag: v1.18.17
@@ -88,7 +88,7 @@ repositories:
         ref: v0.11.1
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.16.5
+        ref: v1.17.3
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
