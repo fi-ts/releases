@@ -82,6 +82,10 @@ docker-images:
         name: velero-plugin-for-gcp
         tag: v1.0.1
 repositories:
+  fits:
+    postgreslet:
+      ref: v0.0.1
+      url: https://github.com/fi-ts/postgreslet
   third-party:
     gardener:
       etcd-backup-restore:
