@@ -84,7 +84,7 @@ docker-images:
 repositories:
   fits:
     postgreslet:
-      ref: v0.0.1
+      ref: v0.1.0
       url: https://github.com/fi-ts/postgreslet
   third-party:
     gardener:
