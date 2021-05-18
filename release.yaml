@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.21
+    version: v0.1.22
 binaries:
   metal-stack:
     cloudctl:
@@ -23,7 +23,7 @@ docker-images:
         tag: v0.4.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.16.0
+        tag: v0.17.1
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.3.0
@@ -49,13 +49,13 @@ docker-images:
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
-        tag: v1.17.3
+        tag: v1.18.2
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.17.3
+        tag: v1.18.2
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.17.3
+        tag: v1.18.2
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.15.0
@@ -64,13 +64,13 @@ docker-images:
         tag: v0.8.3
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.17.3
+        tag: v1.18.2
       networking-calico:
         name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
         tag: bdfefa8
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.17.3
+        tag: v1.18.2
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
         tag: v1.18.17
@@ -82,14 +82,18 @@ docker-images:
         name: velero-plugin-for-gcp
         tag: v1.0.1
 repositories:
+  fits:
+    postgreslet:
+      ref: v0.1.0
+      url: https://github.com/fi-ts/postgreslet
   third-party:
     gardener:
       etcd-backup-restore:
-        ref: v0.11.1
+        ref: v0.12.0
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.17.3
+        ref: v1.18.2
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.6.7/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.6.8/release.yaml
