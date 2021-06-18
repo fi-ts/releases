@@ -81,6 +81,10 @@ docker-images:
       velero-plugin-gcp:
         name: velero-plugin-for-gcp
         tag: v1.0.1
+helm-charts:
+  postgreslet:
+    repository: https://helm.metal-stack.io
+    version: 0.1.0
 repositories:
   fits:
     postgreslet:
