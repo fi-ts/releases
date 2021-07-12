@@ -1,17 +1,17 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.23
+    version: v0.1.24
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.9.8/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.9.9/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.9.8/cloudctl-linux-amd64
-      version: v0.9.8
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.9.9/cloudctl-linux-amd64
+      version: v0.9.9
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.9.8/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.9.9/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -20,16 +20,16 @@ docker-images:
         tag: v0.6.0
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
-        tag: v0.4.2
+        tag: v0.4.3
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.17.6
+        tag: v0.17.8
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
-        tag: v0.3.0
+        tag: v0.3.1
       s3-controller:
         name: r.metal-stack.io/extensions/s3-controller
-        tag: v0.3.0
+        tag: v0.3.1
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
@@ -84,7 +84,7 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.1.0
+    version: 0.2.0
 repositories:
   fits:
     postgreslet:
@@ -100,4 +100,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.7.1/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.7.2/release.yaml
