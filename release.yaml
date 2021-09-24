@@ -93,7 +93,7 @@ repositories:
   third-party:
     gardener:
       etcd-backup-restore:
-        ref: v0.12.1
+        ref: v0.13.0
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
         ref: v1.19.3
