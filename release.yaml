@@ -23,7 +23,7 @@ docker-images:
         tag: v0.4.3
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.17.18
+        tag: v0.17.19
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.3.1
@@ -49,13 +49,13 @@ docker-images:
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
-        tag: v1.19.3
+        tag: v1.20.5
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.19.3
+        tag: v1.20.5
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.19.3
+        tag: v1.20.5
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.15.0
@@ -64,13 +64,13 @@ docker-images:
         tag: v0.9.0
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.19.3
+        tag: v1.20.5
       networking-calico:
         name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
         tag: bdfefa8
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.19.3
+        tag: v1.20.5
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
         tag: v1.18.17
@@ -96,7 +96,7 @@ repositories:
         ref: v0.13.0
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.19.3
+        ref: v1.20.5
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
