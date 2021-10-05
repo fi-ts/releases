@@ -6,12 +6,12 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.0/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.2/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.0/cloudctl-linux-amd64
-      version: v0.10.0
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.2/cloudctl-linux-amd64
+      version: v0.10.2
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.0/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.2/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -23,13 +23,13 @@ docker-images:
         tag: v0.4.3
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.17.20
+        tag: v0.17.21
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
-        tag: v0.3.1
+        tag: v0.4.0
       s3-controller:
         name: r.metal-stack.io/extensions/s3-controller
-        tag: v0.3.1
+        tag: v0.4.0
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
@@ -49,13 +49,13 @@ docker-images:
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
-        tag: v1.21.2
+        tag: v1.22.6
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.21.2
+        tag: v1.22.6
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.21.2
+        tag: v1.22.6
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.16.2
@@ -64,13 +64,13 @@ docker-images:
         tag: v0.9.0
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.21.2
+        tag: v1.22.6
       networking-calico:
         name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
         tag: bdfefa8
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.21.2
+        tag: v1.22.6
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
         tag: v1.18.17
@@ -96,8 +96,8 @@ repositories:
         ref: v0.13.0
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.21.2
+        ref: v1.22.6
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.8.3/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.8.4/release.yaml
