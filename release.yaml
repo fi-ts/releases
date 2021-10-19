@@ -73,7 +73,7 @@ docker-images:
         tag: v1.23.4
       virtual-apiserver:
         name: k8s.gcr.io/hyperkube
-        tag: v1.18.17
+        tag: v1.18.20
     vmware:
       velero:
         name: velero/velero
