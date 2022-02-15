@@ -6,12 +6,12 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.7/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.8/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.7/cloudctl-linux-amd64
-      version: v0.10.7
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.8/cloudctl-linux-amd64
+      version: v0.10.8
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.7/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.8/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
