@@ -1,29 +1,29 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.24
+    version: v0.1.25
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.9/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.11/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.9/cloudctl-linux-amd64
-      version: v0.10.9
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.11/cloudctl-linux-amd64
+      version: v0.10.11
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.9/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.11/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.6.1
+        tag: v0.6.2
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.4.3
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.18.10
+        tag: v0.18.11
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.4.0
@@ -40,12 +40,12 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.6.2
+        tag: v0.6.3
   third-party:
     control-plane:
       accounting-db:
         name: timescale/timescaledb
-        tag: 2.1.0-pg12
+        tag: 2.6.0-pg12
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
@@ -100,4 +100,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.9.2/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.9.3/release.yaml
