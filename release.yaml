@@ -66,8 +66,8 @@ docker-images:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
         tag: v1.27.5
       networking-calico:
-        name: registry.fi-ts.io/gardener/gardener-extension-networking-calico
-        tag: bdfefa8
+        name: r.metal-stack.io/gardener/gardener-extension-networking-calico
+        tag: v1.18.0-metal
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
         tag: v1.27.5
