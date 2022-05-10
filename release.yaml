@@ -1,29 +1,29 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.27
+    version: v0.1.28
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.15/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.16/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.15/cloudctl-linux-amd64
-      version: v0.10.15
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.16/cloudctl-linux-amd64
+      version: v0.10.16
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.15/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.10.16/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.7.0
+        tag: v0.7.1
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
-        tag: v0.4.3
+        tag: v0.4.4
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.18.17
+        tag: v0.18.19
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.4.0
@@ -100,4 +100,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.9.8/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.9.9/release.yaml
