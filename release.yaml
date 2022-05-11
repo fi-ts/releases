@@ -72,8 +72,11 @@ docker-images:
         name: eu.gcr.io/gardener-project/gardener/scheduler
         tag: v1.28.3
       virtual-apiserver:
-        name: k8s.gcr.io/hyperkube
-        tag: v1.18.20
+        name: k8s.gcr.io/kube-apiserver
+        tag: v1.19.16
+      virtual-controller-manager:
+        name: k8s.gcr.io/kube-controller-manager
+        tag: v1.19.16
     vmware:
       velero:
         name: velero/velero
