@@ -45,17 +45,17 @@ docker-images:
     control-plane:
       accounting-db:
         name: timescale/timescaledb
-        tag: 2.6.0-pg12
+        tag: 2.6.1-pg12
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
-        tag: v1.27.5
+        tag: v1.28.3
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.27.5
+        tag: v1.28.3
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.27.5
+        tag: v1.28.3
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.17.0
@@ -64,16 +64,19 @@ docker-images:
         tag: v0.10.7
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.27.5
+        tag: v1.28.3
       networking-calico:
         name: r.metal-stack.io/gardener/gardener-extension-networking-calico
         tag: v1.18.0-metal
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.27.5
+        tag: v1.28.3
       virtual-apiserver:
-        name: k8s.gcr.io/hyperkube
-        tag: v1.18.20
+        name: k8s.gcr.io/kube-apiserver
+        tag: v1.19.16
+      virtual-controller-manager:
+        name: k8s.gcr.io/kube-controller-manager
+        tag: v1.19.16
     vmware:
       velero:
         name: velero/velero
@@ -93,10 +96,10 @@ repositories:
   third-party:
     gardener:
       etcd-backup-restore:
-        ref: v0.13.0
+        ref: v0.15.3
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.27.5
+        ref: v1.28.3
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
