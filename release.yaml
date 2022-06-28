@@ -91,7 +91,7 @@ helm-charts:
 repositories:
   fits:
     postgreslet:
-      ref: v0.7.0
+      ref: v0.8.0
       url: https://github.com/fi-ts/postgreslet
   third-party:
     gardener:
