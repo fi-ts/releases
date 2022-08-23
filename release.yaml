@@ -45,7 +45,7 @@ docker-images:
     control-plane:
       accounting-db:
         name: timescale/timescaledb
-        tag: 2.6.1-pg12
+        tag: 2.7.2-pg12
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
