@@ -68,6 +68,9 @@ docker-images:
       networking-calico:
         name: r.metal-stack.io/gardener/gardener-extension-networking-calico
         tag: v1.18.0-metal
+      networking-cilium:
+        name: r.metal-stack.io/gardener/gardener-extension-networking-cilium
+        tag: 45223caa
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
         tag: v1.38.6
