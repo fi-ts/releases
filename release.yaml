@@ -91,7 +91,7 @@ docker-images:
         name: velero/velero
         tag: v1.3.2
       velero-plugin-gcp:
-        name: velero-plugin-for-gcp
+        name: velero/velero-plugin-for-gcp
         tag: v1.0.1
 helm-charts:
   postgreslet:
@@ -112,4 +112,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.12.0/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.12.1/release.yaml
