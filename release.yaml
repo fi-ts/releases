@@ -33,7 +33,7 @@ docker-images:
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
-        tag: v0.2.4
+        tag: v0.2.5
       group-role-binding-controller:
         name: r.metal-stack.io/extensions/group-rolebinding-controller
         tag: v0.4.2
