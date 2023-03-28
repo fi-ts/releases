@@ -6,34 +6,34 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.4/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.5/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.4/cloudctl-linux-amd64
-      version: v0.11.4
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.5/cloudctl-linux-amd64
+      version: v0.11.5
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.4/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.5/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.8.3
+        tag: v0.8.4
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.4.7
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.20.7
+        tag: v0.20.8
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
-        tag: v0.5.1
+        tag: v0.5.2
       s3-controller:
         name: r.metal-stack.io/extensions/s3-controller
-        tag: v0.5.1
+        tag: v0.5.2
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
-        tag: v0.2.4
+        tag: v0.2.5
       group-role-binding-controller:
         name: r.metal-stack.io/extensions/group-rolebinding-controller
         tag: v0.4.2
@@ -66,8 +66,8 @@ docker-images:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
         tag: v1.44.6
       networking-calico:
-        name: r.metal-stack.io/gardener/gardener-extension-networking-calico
-        tag: v1.18.0-metal
+        name: eu.gcr.io/gardener-project/gardener/extensions/networking-calico
+        tag: v1.24.3
       networking-cilium:
         name: r.metal-stack.io/gardener/gardener-extension-networking-cilium
         tag: f3085c79
@@ -112,4 +112,4 @@ repositories:
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.12.1/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.12.2/release.yaml
