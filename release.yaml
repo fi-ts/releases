@@ -89,10 +89,10 @@ docker-images:
     vmware:
       velero:
         name: velero/velero
-        tag: v1.3.2
+        tag: v1.9.7
       velero-plugin-gcp:
         name: velero-plugin-for-gcp
-        tag: v1.0.1
+        tag: v1.5.5
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
