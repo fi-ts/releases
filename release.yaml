@@ -6,12 +6,12 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.6/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.7/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.6/cloudctl-linux-amd64
-      version: v0.11.6
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.7/cloudctl-linux-amd64
+      version: v0.11.7
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.6/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.7/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -23,7 +23,7 @@ docker-images:
         tag: v0.5.1
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.20.10
+        tag: v0.20.11
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.5.2
@@ -53,13 +53,13 @@ docker-images:
     gardener:
       admission-controller:
         name: eu.gcr.io/gardener-project/gardener/admission-controller
-        tag: v1.45.1
+        tag: v1.46.3
       api-server:
         name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.45.1
+        tag: v1.46.3
       controller-manager:
         name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.45.1
+        tag: v1.46.3
       extension-provider-gcp:
         name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
         tag: v1.23.1
@@ -68,7 +68,7 @@ docker-images:
         tag: v0.12.6
       gardenlet:
         name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.45.1
+        tag: v1.46.3
       networking-calico:
         name: eu.gcr.io/gardener-project/gardener/extensions/networking-calico
         tag: v1.24.3
@@ -77,7 +77,7 @@ docker-images:
         tag: f3085c79
       scheduler:
         name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.45.1
+        tag: v1.46.3
       shoot-cert-service:
         name: eu.gcr.io/gardener-project/gardener/extensions/shoot-cert-service
         tag: v1.23.0
@@ -112,7 +112,7 @@ repositories:
         ref: v0.15.4
         url: https://github.com/gardener/etcd-backup-restore.git
       gardener:
-        ref: v1.45.1
+        ref: v1.46.3
         url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
