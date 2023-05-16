@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.33
+    version: v0.1.34
 binaries:
   metal-stack:
     cloudctl:
@@ -23,7 +23,7 @@ docker-images:
         tag: v0.5.1
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.20.12
+        tag: v0.20.15
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.5.2
@@ -38,6 +38,9 @@ docker-images:
         name: r.metal-stack.io/extensions/group-rolebinding-controller
         tag: v0.4.2
     gardener:
+      gardener-extension-fits-accounting:
+        name: ghcr.io/fi-ts/gardener-extension-accounting
+        tag: v0.1.0
       gardener-extension-fits-authn:
         name: ghcr.io/fi-ts/gardener-extension-authn
         tag: v0.1.3
@@ -50,46 +53,6 @@ docker-images:
       accounting-db:
         name: timescale/timescaledb
         tag: 2.7.2-pg12
-    gardener:
-      admission-controller:
-        name: eu.gcr.io/gardener-project/gardener/admission-controller
-        tag: v1.48.7
-      api-server:
-        name: eu.gcr.io/gardener-project/gardener/apiserver
-        tag: v1.48.7
-      controller-manager:
-        name: eu.gcr.io/gardener-project/gardener/controller-manager
-        tag: v1.48.7
-      extension-provider-gcp:
-        name: eu.gcr.io/gardener-project/gardener/extensions/provider-gcp
-        tag: v1.23.1
-      external-dns:
-        name: eu.gcr.io/gardener-project/dns-controller-manager
-        tag: v0.12.6
-      gardenlet:
-        name: eu.gcr.io/gardener-project/gardener/gardenlet
-        tag: v1.48.7
-      networking-calico:
-        name: eu.gcr.io/gardener-project/gardener/extensions/networking-calico
-        tag: v1.24.3
-      networking-cilium:
-        name: r.metal-stack.io/gardener/gardener-extension-networking-cilium
-        tag: f3085c79
-      scheduler:
-        name: eu.gcr.io/gardener-project/gardener/scheduler
-        tag: v1.48.7
-      shoot-cert-service:
-        name: eu.gcr.io/gardener-project/gardener/extensions/shoot-cert-service
-        tag: v1.23.0
-      shoot-dns-service:
-        name: eu.gcr.io/gardener-project/gardener/extensions/shoot-dns-service
-        tag: v1.21.0
-      virtual-apiserver:
-        name: k8s.gcr.io/kube-apiserver
-        tag: v1.19.16
-      virtual-controller-manager:
-        name: k8s.gcr.io/kube-controller-manager
-        tag: v1.19.16
     vmware:
       velero:
         name: velero/velero
@@ -106,14 +69,6 @@ repositories:
     postgreslet:
       ref: v0.11.0
       url: https://github.com/fi-ts/postgreslet
-  third-party:
-    gardener:
-      etcd-backup-restore:
-        ref: v0.15.4
-        url: https://github.com/gardener/etcd-backup-restore.git
-      gardener:
-        ref: v1.48.7
-        url: https://github.com/gardener/gardener.git
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.13.3/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.13.4/release.yaml
