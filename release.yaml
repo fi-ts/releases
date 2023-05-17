@@ -58,7 +58,7 @@ docker-images:
         name: velero/velero
         tag: v1.9.7
       velero-plugin-gcp:
-        name: velero-plugin-for-gcp
+        name: velero/velero-plugin-for-gcp
         tag: v1.5.5
 helm-charts:
   postgreslet:
