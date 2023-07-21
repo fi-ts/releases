@@ -23,7 +23,7 @@ docker-images:
         tag: v0.5.1
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.20.20
+        tag: v0.20.21
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.5.2
@@ -71,4 +71,4 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.14.2/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.14.3/release.yaml
