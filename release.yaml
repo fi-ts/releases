@@ -1,17 +1,17 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.34
+    version: v0.1.35
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.13/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.2/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.13/cloudctl-linux-amd64
-      version: v0.11.13
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.2/cloudctl-linux-amd64
+      version: v0.12.2
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.11.13/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.2/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -23,7 +23,7 @@ docker-images:
         tag: v0.5.1
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.20.23
+        tag: v0.22.0
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.5.2
@@ -47,12 +47,12 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.6.4
+        tag: v0.7.2
   third-party:
     control-plane:
       accounting-db:
         name: timescale/timescaledb
-        tag: 2.7.2-pg12
+        tag: 2.11.2-pg12
     vmware:
       velero:
         name: velero/velero
@@ -71,4 +71,4 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.14.6/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.15.0/release.yaml
