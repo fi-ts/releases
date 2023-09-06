@@ -6,12 +6,12 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.2/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.3/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.2/cloudctl-linux-amd64
-      version: v0.12.2
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.3/cloudctl-linux-amd64
+      version: v0.12.3
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.2/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.3/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -47,7 +47,7 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.7.2
+        tag: v0.8.0
   third-party:
     control-plane:
       accounting-db:
@@ -71,4 +71,4 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.15.0/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.15.1/release.yaml
