@@ -23,7 +23,7 @@ docker-images:
         tag: v0.5.3
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.22.6
+        tag: v0.23.0
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.5.2
