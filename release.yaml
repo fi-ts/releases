@@ -26,10 +26,10 @@ docker-images:
         tag: v0.23.1
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
-        tag: v0.5.2
+        tag: v0.6.0
       s3-controller:
         name: r.metal-stack.io/extensions/s3-controller
-        tag: v0.5.2
+        tag: v0.6.0
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
