@@ -47,7 +47,7 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.9.1
+        tag: v0.10.0
   third-party:
     control-plane:
       accounting-db:
