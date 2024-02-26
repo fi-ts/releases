@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.38
+    version: v0.1.39
 binaries:
   metal-stack:
     cloudctl:
@@ -20,7 +20,7 @@ docker-images:
         tag: v0.9.1
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
-        tag: v0.6.0
+        tag: v0.6.1
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
         tag: v0.24.3
@@ -47,12 +47,12 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.9.1
+        tag: v0.10.0
   third-party:
     control-plane:
       accounting-db:
         name: timescale/timescaledb
-        tag: 2.11.2-pg12
+        tag: 2.11.2-pg15
     vmware:
       velero:
         name: velero/velero
@@ -71,4 +71,4 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.17.0/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.17.1/release.yaml
