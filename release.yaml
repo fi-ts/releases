@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.39
+    version: v0.1.40
 binaries:
   metal-stack:
     cloudctl:
@@ -23,13 +23,13 @@ docker-images:
         tag: v0.6.1
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.26.0
+        tag: v0.26.2
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
-        tag: v0.6.0
+        tag: v0.6.1
       s3-controller:
         name: r.metal-stack.io/extensions/s3-controller
-        tag: v0.6.0
+        tag: v0.6.1
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
@@ -47,7 +47,7 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.10.1
+        tag: v0.10.2
   third-party:
     control-plane:
       accounting-db:
@@ -71,4 +71,4 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.17.3/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.17.4/release.yaml
