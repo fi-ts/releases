@@ -63,7 +63,7 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.10.2
+    version: 0.11.0
 repositories:
   fits:
     postgreslet:
