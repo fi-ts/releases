@@ -37,7 +37,7 @@ docker-images:
     gardener:
       gardener-extension-fits-accounting:
         name: ghcr.io/fi-ts/gardener-extension-accounting
-        tag: v0.1.3
+        tag: v0.1.4
       gardener-extension-fits-authn:
         name: ghcr.io/fi-ts/gardener-extension-authn
         tag: v0.1.6
