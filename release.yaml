@@ -64,7 +64,7 @@ helm-charts:
 repositories:
   fits:
     postgreslet:
-      ref: v0.14.1
+      ref: v0.15.0
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
