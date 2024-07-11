@@ -69,3 +69,4 @@ repositories:
 vectors:
   metal-stack:
     url: https://raw.githubusercontent.com/metal-stack/releases/v0.18.4-rc.0/release.yaml
+    version: v0.18.4-rc.0
