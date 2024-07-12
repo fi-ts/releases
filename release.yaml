@@ -1,17 +1,17 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.44
+    version: v0.1.46
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.20/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.21/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.20/cloudctl-linux-amd64
-      version: v0.12.20
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.21/cloudctl-linux-amd64
+      version: v0.12.21
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.20/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.12.21/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -23,7 +23,7 @@ docker-images:
         tag: v0.6.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.26.7
+        tag: v0.26.9
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.1
@@ -60,7 +60,7 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.13.0
+    version: 0.13.1
 repositories:
   fits:
     postgreslet:
@@ -68,4 +68,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.18.3/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.18.4/release.yaml
+    version: v0.18.4
