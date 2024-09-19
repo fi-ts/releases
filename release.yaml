@@ -60,13 +60,13 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.13.1
+    version: 0.14.0
 repositories:
   fits:
     postgreslet:
-      ref: v0.16.0
+      ref: v0.17.0
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.18.13/release.yaml
-    version: v0.18.13
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.18.14/release.yaml
+    version: v0.18.14
