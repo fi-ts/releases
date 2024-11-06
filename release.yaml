@@ -23,7 +23,7 @@ docker-images:
         tag: v0.6.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.29.4
+        tag: v0.29.5
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.1
@@ -37,14 +37,14 @@ docker-images:
     gardener:
       gardener-extension-fits-accounting:
         name: ghcr.io/fi-ts/gardener-extension-accounting
-        tag: v0.1.4
+        tag: v0.1.5
       gardener-extension-fits-authn:
         name: ghcr.io/fi-ts/gardener-extension-authn
-        tag: v0.1.7
+        tag: v0.1.8
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.10.3
+        tag: v0.11.0
   third-party:
     control-plane:
       accounting-db:
@@ -64,9 +64,9 @@ helm-charts:
 repositories:
   fits:
     postgreslet:
-      ref: v0.17.0
+      ref: v0.17.1
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.18.17/release.yaml
-    version: v0.18.17
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.18.18/release.yaml
+    version: v0.18.18
