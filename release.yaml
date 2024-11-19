@@ -17,7 +17,7 @@ docker-images:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.1
+        tag: v0.10.2
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.6.2
@@ -68,5 +68,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.19.1/release.yaml
-    version: v0.19.1
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.19.2/release.yaml
+    version: v0.19.2
