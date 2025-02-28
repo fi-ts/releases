@@ -30,17 +30,17 @@ docker-images:
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
-        tag: v0.3.0
+        tag: v0.4.0
       group-role-binding-controller:
         name: r.metal-stack.io/extensions/group-rolebinding-controller
-        tag: v0.4.4
+        tag: v0.5.0
     gardener:
       gardener-extension-fits-accounting:
         name: ghcr.io/fi-ts/gardener-extension-accounting
         tag: v0.1.5
       gardener-extension-fits-authn:
         name: ghcr.io/fi-ts/gardener-extension-authn
-        tag: v0.1.8
+        tag: v0.1.9
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
@@ -68,5 +68,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.19.8/release.yaml
-    version: v0.19.8
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.20.0/release.yaml
+    version: v0.20.0
