@@ -1,36 +1,36 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.48
+    version: v0.1.49
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.6/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.9/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.6/cloudctl-linux-amd64
-      version: v0.14.6
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.9/cloudctl-linux-amd64
+      version: v0.14.9
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.6/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.9/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.2
+        tag: v0.10.3
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.6.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.29.16
+        tag: v0.30.2
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.1
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
-        tag: v0.4.0
+        tag: v0.4.1
       group-role-binding-controller:
         name: r.metal-stack.io/extensions/group-rolebinding-controller
         tag: v0.5.0
@@ -44,7 +44,7 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.11.0
+        tag: v0.11.1
   third-party:
     control-plane:
       accounting-db:
@@ -60,13 +60,13 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.16.4
+    version: 0.17.0
 repositories:
   fits:
     postgreslet:
-      ref: v0.18.0
+      ref: v0.19.0
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.21.4/release.yaml
-    version: v0.21.4
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.21.5/release.yaml
+    version: v0.21.5
