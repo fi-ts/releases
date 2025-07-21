@@ -1,7 +1,8 @@
 ansible-roles:
   metal-extensions-roles:
+    oci: r.metal-stack.io/extensions/metal-extensions-roles
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.51
+    version: oci-artifacts
 binaries:
   metal-stack:
     cloudctl:
