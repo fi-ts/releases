@@ -17,7 +17,7 @@ docker-images:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.3
+        tag: v0.10.4
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.6.2
