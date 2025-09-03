@@ -1,7 +1,7 @@
 ansible-roles:
   metal-extensions-roles:
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.51
+    version: v0.1.52
 binaries:
   metal-stack:
     cloudctl:
@@ -17,13 +17,13 @@ docker-images:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.3
+        tag: v0.10.4
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.6.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.30.4
+        tag: v0.30.7
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.1
@@ -60,13 +60,13 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.17.0
+    version: 0.18.0
 repositories:
   fits:
     postgreslet:
-      ref: v0.19.0
+      ref: v0.21.0
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.21.8/release.yaml
-    version: v0.21.8
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.21.9/release.yaml
+    version: v0.21.9
