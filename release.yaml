@@ -6,24 +6,24 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.9/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.10/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.9/cloudctl-linux-amd64
-      version: v0.14.9
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.10/cloudctl-linux-amd64
+      version: v0.14.10
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.9/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.10/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.4
+        tag: v0.10.5
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.6.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.30.7
+        tag: v0.30.8
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.1
@@ -68,5 +68,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.21.9/release.yaml
-    version: v0.21.9
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.21.10/release.yaml
+    version: v0.21.10
