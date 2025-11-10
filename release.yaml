@@ -35,6 +35,9 @@ docker-images:
       group-role-binding-controller:
         name: r.metal-stack.io/extensions/group-rolebinding-controller
         tag: v0.5.0
+      virtual-garden-kubeconfig-refresher:
+        name: ghcr.io/fi-ts/virtual-garden-kubeconfig-refresher
+        tag: v0.1.1
     gardener:
       gardener-extension-fits-accounting:
         charts:
