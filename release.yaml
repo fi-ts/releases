@@ -81,5 +81,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.1/release.yaml
-    version: v0.22.1
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.2-rc.0/release.yaml
+    version: v0.22.2-rc.0
