@@ -37,6 +37,11 @@ jobs:
         [ "${GITHUB_EVENT_NAME}" == 'release' ] && echo "tag=${GITHUB_REF##*/}" >> $GITHUB_ENV || true
         [ "${GITHUB_EVENT_NAME}" == 'push' ] && echo "tag=latest" >> $GITHUB_ENV || true
 
+    - name: Overwrite tag if necessary
+      run: |
+        [ "${GITHUB_EVENT_NAME}" == 'push' ] && echo "tag=${GITHUB_REF##*/}" >> $GITHUB_ENV || true
+      if: github.ref_type == 'tag'
+
     - name: Checkout
       uses: actions/checkout@v4
 
