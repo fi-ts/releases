@@ -43,7 +43,7 @@ docker-images:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-accounting
         name: ghcr.io/fi-ts/gardener-extension-accounting
-        tag: v0.1.6
+        tag: v0.1.7
       gardener-extension-fits-authn:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-authn
