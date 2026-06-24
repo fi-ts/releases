@@ -7,18 +7,18 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.17/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.0/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.17/cloudctl-linux-amd64
-      version: v0.14.17
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.0/cloudctl-linux-amd64
+      version: v0.15.0
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.14.17/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.0/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.6
+        tag: v0.10.7
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.6.2
@@ -81,5 +81,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.15/release.yaml
-    version: v0.22.15
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.16/release.yaml
+    version: v0.22.16
