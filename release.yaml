@@ -24,7 +24,7 @@ docker-images:
         tag: v0.6.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.31.1
+        tag: v0.32.0
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.2
@@ -57,7 +57,7 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.12.1
+        tag: v0.13.0
   third-party:
     control-plane:
       accounting-db:
@@ -81,5 +81,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.16/release.yaml
-    version: v0.22.16
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.17/release.yaml
+    version: v0.22.17
