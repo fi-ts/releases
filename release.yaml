@@ -53,7 +53,7 @@ docker-images:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-xdr
         name: ghcr.io/fi-ts/gardener-extension-xdr
-        tag: v0.1.8
+        tag: v0.1.9
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
@@ -81,5 +81,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.17/release.yaml
-    version: v0.22.17
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.18/release.yaml
+    version: v0.22.18
