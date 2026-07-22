@@ -2,7 +2,7 @@ ansible-roles:
   metal-extensions-roles:
     oci: r.metal-stack.io/extensions/metal-extensions-roles
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.57
+    version: v0.1.58
 binaries:
   metal-stack:
     cloudctl:
@@ -24,7 +24,7 @@ docker-images:
         tag: v0.6.2
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.32.0
+        tag: v0.32.2
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.2
@@ -81,5 +81,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.22.18/release.yaml
-    version: v0.22.18
+    url: oci://ghcr.io/metal-stack/releases:v0.22.19
+    version: v0.22.19
