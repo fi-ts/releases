@@ -54,6 +54,11 @@ docker-images:
           extension: ghcr.io/fi-ts/charts/gardener-extension-xdr
         name: ghcr.io/fi-ts/gardener-extension-xdr
         tag: v0.1.9
+      gardener-extension-fits-qca:
+        charts:
+          extension: ghcr.io/fi-ts/charts/gardener-extension-qca
+        name: ghcr.io/fi-ts/gardener-extension-qca
+        tag: v0.0.0
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
