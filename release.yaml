@@ -20,8 +20,9 @@ docker-images:
         name: r.metal-stack.io/extensions/accounting-api
         tag: v0.10.7
       accounting-exporter:
-        name: r.metal-stack.io/extensions/kube-counter
-        tag: v0.6.2
+        url: https://github.com/fi-ts/accounting-exporter
+        name: ghcr.io/fi-ts/accounting-exporter
+        tag: v0.7.0
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
         tag: v0.33.0
