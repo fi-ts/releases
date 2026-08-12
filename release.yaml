@@ -54,7 +54,7 @@ docker-images:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-qca
         name: ghcr.io/fi-ts/gardener-extension-qca
-        tag: v0.0.0
+        tag: v0.1.0
       gardener-extension-fits-xdr:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-xdr
