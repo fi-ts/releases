@@ -2,17 +2,17 @@ ansible-roles:
   metal-extensions-roles:
     oci: r.metal-stack.io/extensions/metal-extensions-roles
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.58
+    version: v0.1.60
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.1/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.2/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.1/cloudctl-linux-amd64
-      version: v0.15.1
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.2/cloudctl-linux-amd64
+      version: v0.15.2
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.1/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.2/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
@@ -21,7 +21,8 @@ docker-images:
         tag: v0.10.7
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
-        tag: v0.6.2
+        tag: v0.7.1
+        url: https://github.com/fi-ts/accounting-exporter
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
         tag: v0.33.0
@@ -49,6 +50,11 @@ docker-images:
           extension: ghcr.io/fi-ts/charts/gardener-extension-authn
         name: ghcr.io/fi-ts/gardener-extension-authn
         tag: v0.1.12
+      gardener-extension-fits-qca:
+        charts:
+          extension: ghcr.io/fi-ts/charts/gardener-extension-qca
+        name: ghcr.io/fi-ts/gardener-extension-qca
+        tag: v0.1.0
       gardener-extension-fits-xdr:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-xdr
@@ -62,7 +68,7 @@ docker-images:
     control-plane:
       accounting-db:
         name: timescale/timescaledb
-        tag: 2.25.1-pg15
+        tag: 2.28.3-pg15
     vmware:
       velero:
         name: velero/velero
@@ -81,5 +87,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: oci://ghcr.io/metal-stack/releases:v0.22.20
-    version: v0.22.20
+    url: oci://ghcr.io/metal-stack/releases:v0.22.21
+    version: v0.22.21
