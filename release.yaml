@@ -68,7 +68,7 @@ docker-images:
     control-plane:
       accounting-db:
         name: timescale/timescaledb
-        tag: 2.28.3-pg17
+        tag: 2.28.3-pg16
     vmware:
       velero:
         name: velero/velero
