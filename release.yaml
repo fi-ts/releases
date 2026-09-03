@@ -63,7 +63,7 @@ docker-images:
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
-        tag: v0.14.0
+        tag: v0.14.1
   third-party:
     control-plane:
       accounting-db:
@@ -87,5 +87,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: oci://ghcr.io/metal-stack/releases:v0.22.22
-    version: v0.22.22
+    url: oci://ghcr.io/metal-stack/releases:v0.22.23-rc.1
+    version: v0.22.23-rc.1
