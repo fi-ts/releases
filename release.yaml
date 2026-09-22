@@ -7,25 +7,25 @@ binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.3/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.6/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.3/cloudctl-linux-amd64
-      version: v0.15.3
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.6/cloudctl-linux-amd64
+      version: v0.15.6
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.3/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.6/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.7
+        tag: v0.10.8
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.7.1
         url: https://github.com/fi-ts/accounting-exporter
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.34.0
+        tag: v0.35.0
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.2
@@ -54,12 +54,12 @@ docker-images:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-qca
         name: ghcr.io/fi-ts/gardener-extension-qca
-        tag: v0.1.0
+        tag: v0.1.1
       gardener-extension-fits-xdr:
         charts:
           extension: ghcr.io/fi-ts/charts/gardener-extension-xdr
         name: ghcr.io/fi-ts/gardener-extension-xdr
-        tag: v0.1.9
+        tag: v0.1.10
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
@@ -79,7 +79,7 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.22.1
+    version: 0.22.2
 repositories:
   fits:
     postgreslet:
@@ -87,5 +87,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: oci://ghcr.io/metal-stack/releases:v0.22.23
-    version: v0.22.23
+    url: oci://ghcr.io/metal-stack/releases:v0.22.24
+    version: v0.22.24
