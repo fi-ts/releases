@@ -2,30 +2,30 @@ ansible-roles:
   metal-extensions-roles:
     oci: r.metal-stack.io/extensions/metal-extensions-roles
     repository: https://git.f-i-ts.de/cloud-native/metal/metal-extensions-roles
-    version: v0.1.62
+    version: v0.1.63
 binaries:
   metal-stack:
     cloudctl:
       darwin:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.6/cloudctl-darwin-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.7/cloudctl-darwin-amd64
       linux:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.6/cloudctl-linux-amd64
-      version: v0.15.6
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.7/cloudctl-linux-amd64
+      version: v0.15.7
       windows:
-        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.6/cloudctl-windows-amd64
+        url: https://github.com/fi-ts/cloudctl/releases/download/v0.15.7/cloudctl-windows-amd64
 docker-images:
   metal-stack:
     extensions:
       accounting-api:
         name: r.metal-stack.io/extensions/accounting-api
-        tag: v0.10.8
+        tag: v0.11.0
       accounting-exporter:
         name: r.metal-stack.io/extensions/kube-counter
         tag: v0.7.1
         url: https://github.com/fi-ts/accounting-exporter
       cloud-api:
         name: r.metal-stack.io/extensions/cloud-api
-        tag: v0.35.1
+        tag: v0.36.1
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.2
@@ -79,7 +79,7 @@ docker-images:
 helm-charts:
   postgreslet:
     repository: https://helm.metal-stack.io
-    version: 0.22.2
+    version: 0.23.1
 repositories:
   fits:
     postgreslet:
@@ -87,5 +87,5 @@ repositories:
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
-    url: oci://ghcr.io/metal-stack/releases:v0.22.26
-    version: v0.22.26
+    url: oci://ghcr.io/metal-stack/releases:v1.1.0-rc.2
+    version: v1.1.0-rc.2
