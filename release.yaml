@@ -35,7 +35,7 @@ docker-images:
         tag: v0.0.0
       fco-console:
         name: ghcr.io/fi-ts/fco-console
-        tag: v0.0.0
+        tag: v0.0.5
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
