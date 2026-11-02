@@ -29,6 +29,13 @@ docker-images:
       s3-api:
         name: r.metal-stack.io/extensions/s3-api
         tag: v0.7.2
+    fco:
+      fco-apiserver:
+        name: ghcr.io/fi-ts/fco-apiserver
+        tag: v0.0.0
+      fco-console:
+        name: ghcr.io/fi-ts/fco-console
+        tag: v0.0.0
     fits:
       authn-webhook:
         name: r.metal-stack.io/extensions/kubernetes-authn-webhook
@@ -60,13 +67,6 @@ docker-images:
           extension: ghcr.io/fi-ts/charts/gardener-extension-xdr
         name: ghcr.io/fi-ts/gardener-extension-xdr
         tag: v0.1.10
-    fco:
-      fco-apiserver:
-        name: ghcr.io/fi-ts/fco-apiserver
-        tag: v0.0.0
-      fco-console:
-        name: ghcr.io/fi-ts/fco-console
-        tag: v0.0.0
     generic:
       backup-restore-sidecar:
         name: ghcr.io/metal-stack/backup-restore-sidecar
@@ -90,7 +90,7 @@ helm-charts:
 repositories:
   fits:
     postgreslet:
-      ref: v0.27.3
+      ref: v0.27.4
       url: https://github.com/fi-ts/postgreslet
 vectors:
   metal-stack:
